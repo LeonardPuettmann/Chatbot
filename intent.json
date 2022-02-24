@@ -1,0 +1,63 @@
+{"intents": [
+  {"tag": "Begruessung",
+    "inputs": ["Hi", "Hallo Du!", "Hey", "Guten Tag", "Was geht?", "Hey", "Gruess dich", "Huhu", "Hu hu", "Hiho", "Moin", "Moin moin"],
+    "responses": ["Platzhalter Begrueßung"],
+    "context_set": ""
+  },
+  {"tag": "Name",
+    "inputs": ["Wie heißt Du?", "Wie ist dein Name?", "Kannst Du mir deinen Namen sagen?", "Wie lautet dein Name?", "Wie ist dein Name?", "Wie geht dein Name?"],
+    "responses": ["Platzhalter Name"],
+    "context_set": ""
+  },
+  {"tag": "Smalltalk01",
+    "inputs": ["Wie geht's?", "Wie geht es dir?", "Alles klar soweit?", "Geht es dir gut?", "Geht es dir gut?", "Ich hoffe, dir geht es gut."],
+    "responses": ["Platzhalter Smalltalk"],
+    "context_set": ""
+  },
+  {"tag": "Aktienabfrage",
+    "inputs": ["Wie laufen meine Aktien?", "Aktienabfrage", "Zeige mir meine Aktien", "Infos über meine Aktien", "Gib mir ein Aktienupdate", "Aktuelle Aktienpreise"],
+    "responses": ["Platzhalter Aktienabfrage"],
+    "context_set": ""
+  },
+  {"tag": "show_todo",
+    "inputs": ["Zeig mir meine to dos.", "Was steht heute auf meinem Plan?", "Zeig mir meine Aufgaben", "Was steht an?", "Was gibt es zutun?", "Was steht auf meiner to do Liste?"],
+    "responses": ["Platzhalter Aktienabfrage"],
+    "context_set": ""
+  },
+  {"tag": "add_todo",
+    "inputs": ["To do erstellen.", "To do erstellen.", "To do eintragen.", "To do hinzufügen", "Erstelle ein to do", "Füg ein to do hinzu."],
+    "responses": ["Platzhalter Aktienabfrage"],
+    "context_set": ""
+  },
+  {"tag": "remove_todo",
+    "inputs": ["Lösche etwas von meiner to do Liste.", "Entferne etwas von meinen to dos", "Aus to dos löschen", "Eintrag aus to dos entfernen", "To do löschen"],
+    "responses": ["Platzhalter Aktienabfrage"],
+    "context_set": ""
+  },
+  {"tag": "Bedankung",
+    "inputs": ["Danke.", "Vielen Dank", "Danke für deine Hilfe", "Ich danke dir", "Dankeschön", "Thanks.", "Super, das hat mir geholfen.", "Danke für deine Hilfe.", "Cool, danke."],
+    "responses": ["Platzhalter Bedankung"],
+    "context_set": ""
+  },
+  {"tag": "Verabschieden",
+    "inputs": ["Danke, auf wiedersehen.", "Tschuess", "Auf wiedersehen!", "Tschüss", "Ciao!", "Bis dann!"],
+    "responses": ["Platzhalter Verabschiede"],
+    "context_set": ""
+  },
+  {"tag": "Schildkroeten",
+    "inputs": ["Fakten über Schildkröten", "Erzähl mir etwas über Schildkröten", "Schildkröten Fakten", "Ich will mehr über Schildkröten wissen", "Sag mir etwas über Schhildkröten."],
+    "responses": ["Platzhalter Schildkroeten"],
+    "context_set": ""
+  },
+  {"tag": "Wetter",
+    "inputs": ["Wie ist das Wetter?", "Sag mir das Wetter", "Aktuelles Wetter", "Wetter", "Zeig das Wetter", "Wetter anzeigen", "Wetter zeigen", "Ich möchte das Wetter wissen", "Ich will das Wetter wissen"],
+    "responses": ["Platzhalter Wetter"],
+    "context_set": ""
+  },
+  {"tag": "Kalender",
+    "inputs": ["Was steht auf meinem kalender?", "Zeig mir meinen Kalender", "Kalender anzeigen", "Outlook Kalender", "Outlook Kalender anzeigen", "Ich möchte meinen Kalender einsehen", "Was ist auf meinem Kalender?"],
+    "responses": ["Platzhalter Kalender"],
+    "context_set": ""
+  }
+]
+}
